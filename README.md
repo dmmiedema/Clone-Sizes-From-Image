@@ -7,9 +7,9 @@ Calculates and returns clone sizes.
 
 # Input
 gray_scale_image  -   Gray scale image (2 dimensional array). If a 3D
-                      array is given as input (multi-channel image), the first layer is taken (assumed to correspond to color = red).  
-threshold         -   Minimum grey scale value of positive pixels
-cell_size_pix     -   Size of a cell in pixels
+                      array is given as input (multi-channel image), the first layer is taken (assumed to correspond to color = red). 
+threshold         -   Minimum grey scale value of positive pixels.
+cell_size_pix     -   Size of a cell in pixels.
 d_max             -   Maximum distance between cells within a clone in
                       cell diameters.
 
